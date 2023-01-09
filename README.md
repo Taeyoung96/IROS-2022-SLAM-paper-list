@@ -285,7 +285,8 @@ If there are any missing papers or incorrect information, please feel free to co
 - Anchor Selection for SLAM Based on Graph Topology and Submodular Optimization  
 - Optimization Strategies for Bayesian Source Localization Algorithms  
 - A Spanning Tree-Based Multi-Resolution Approach for Pose-Graph Optimization  
-- Nested Sampling for Non-Gaussian Inference in SLAM Factor Graphs
+- Nested Sampling for Non-Gaussian Inference in SLAM Factor Graphs  
+- Patchwork++: Fast and Robust Ground Segmentation Solving Partial Under-Segmentation Using 3D Point Cloud
 
 
 [[top](#iros-2022-slam-paper-list)]  
