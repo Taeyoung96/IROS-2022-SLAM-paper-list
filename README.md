@@ -1,7 +1,10 @@
-# IROS-2022-SLAM-paper-list  
+# IROS-2022-SLAM-paper-list 
+ 
 This repository is a collection of papers related to SLAM for personal research purposes.  
 Based on [PaoPaoRobot/IROS2022-paper-list](https://github.com/PaoPaoRobot/IROS2022-paper-list), categories were sorted by myself.  
 If there are any missing papers or incorrect information, please feel free to contact me or leave an issue.  
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## Table of contents  
 - [Dataset](#dataset)  
@@ -14,11 +17,9 @@ If there are any missing papers or incorrect information, please feel free to co
 - [Point cloud registration](#point-cloud-registration)  
 - [3D reconstruction](#3d-reconstruction)
 - [Sensor fusion](#sensor-fusion)  
-- [Inertial odometry](#inertial-odometry)  
-- [Multi Robot SLAM](#multi-robot-slam)  
+- [Inertial odometry / INS](#inertial-odometry--ins)  
+- [Multi Robot SLAM / Localization](#multi-robot-slam--localization)  
 - [Etc](#etc)
-
-[[top](#iros-2022-slam-paper-list)]
 
 ## Dataset  
 - Are We Ready for Robust and Resilient SLAM? a Framework for Quantitative Characterization of SLAM Datasets  
@@ -28,6 +29,10 @@ If there are any missing papers or incorrect information, please feel free to co
 - Challenges of SLAM in Extremely Unstructured Environments: The DLR Planetary Stereo, Solid-State LiDAR, Inertial Dataset  
 - OdomBeyondVision: An Indoor Multi-Modal Multi-Platform Odometry Dataset Beyond the Visible Spectrum  
 - The Hilti SLAM Challenge Dataset  
+- WiSARD: A Labeled Visual and Thermal Image Dataset for Wilderness Search and Rescue  
+- Danish Airs and Grounds: A Dataset for Aerial-To-Street-Level Place Recognition and Localization
+
+[[top](#iros-2022-slam-paper-list)]
 
 ## Visual odometry / Visual SLAM / Structure-From-Motion  
 - Real-Time Hybrid Mapping of Populated Indoor Scenes using a Low-Cost Monocular UAV  
@@ -61,7 +66,13 @@ If there are any missing papers or incorrect information, please feel free to co
 - Keeping Less Is More: Point Sparsification for Visual SLAM  
 - Event-Based Line SLAM in Real-Time  
 - LNC Assisted Localization and Mapping in Pipe Environment  
-
+- Simultaneous Localization and Mapping: Through the Lens of Nonlinear Optimization  
+- DSOL: A Fast Direct Sparse Odometry Scheme  
+- Towards Specialized Hardware for Learning-Based Visual Odometry on the Edge  
+- Robust Visual Teach and Repeat for UGVs Using 3D Semantic Maps  
+- Hybrid Belief Pruning with Guarantees for Viewpoint-Dependent Semantic SLAM  
+- Active Mapping via Gradient Ascent Optimization of Shannon Mutual Information over Continuous SE(3) Trajectories  
+- From Timing Variations to Performance Degradation: Understanding and Mitigating the Impact of Software Execution Timing in SLAM
 
 
 [[top](#iros-2022-slam-paper-list)]
@@ -82,6 +93,11 @@ If there are any missing papers or incorrect information, please feel free to co
 - BOEM-SLAM: A Block Online EM Algorithm for the Visual-Inertial SLAM Backend  
 - Visual-Inertial SLAM with Tightly-Coupled Dropout-Tolerant GPS Fusion  
 - RGB-D Inertial Odometry for a Resource-Restricted Robot in Dynamic Environments  
+- Towards Robust Visual-Inertial Odometry with Multiple Non-Overlapped Monocular Cameras  
+- A Tightly-Coupled Event-Inertial Odometry Using Exponential Decay and Linear Preintegrated Measurements  
+- Photometric Visual-Inertial Navigation with Uncertainty-Aware Ensembles (I)  
+- Real-Time Visual Inertial Odometry with a Resource-Efficient Harris Corner Detection Accelerator on FPGA Platform  
+- Visual-Inertial Multi-Instance Dynamic SLAM with Object-Level Relocalisation  
 
 
 
@@ -111,6 +127,7 @@ If there are any missing papers or incorrect information, please feel free to co
 - CGiS-Net: Aggregating Colour, Geometry and Implicit Semantic Features for Indoor Place Recognition  
 - Towards holistic autonomous obstacle detection in railways by complementing of on-board vision with UAV-based object localization  
 - Predicting to Improve: Integrity Measures for Assessing Visual Localization Performance  
+- City-wide Street-to-Satellite Image Geolocalization of a Mobile Ground Agent  
 
 
 
@@ -131,12 +148,15 @@ If there are any missing papers or incorrect information, please feel free to co
 - Efficient 2D Graph SLAM for Sparse Sensing  
 - RO-LOAM: 3D Reference Object-Based Trajectory and Map Optimization in LiDAR Odometry and Mapping  
 - Fast Sparse LiDAR Odometry Using Self-Supervised Feature Selection on Intensity Images  
-
+- MD-SLAM: Multi-Cue Direct SLAM  
+- Detecting Invalid Map Merges in Lifelong SLAM  
+- PFilter: Building Persistent Maps through Feature Filtering for Fast and Accurate LiDAR-Based SLAM  
+- Situational Graphs for Robot Navigation in Structured Indoor Environments  
 
 [[top](#iros-2022-slam-paper-list)]
 
 ## LiDAR-inertial odometry / LiDAR-inertial SLAM  
-- 
+- A LiDAR-Inertial Odometry with Principled Uncertainty Modeling  
 
 [[top](#iros-2022-slam-paper-list)]
 
@@ -158,6 +178,7 @@ If there are any missing papers or incorrect information, please feel free to co
 - FSM: Correspondenceless Scan-Matching of Panoramic 2D Range Scans  
 - BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR  
 - InCloud: Incremental Learning for Point Cloud Place Recognition  
+- D-LC-Nets: Robust Denoising and Loop Closing Networks for LiDAR SLAM in Complicated Circumstances with Noisy Point Clouds  
 
 
 [[top](#iros-2022-slam-paper-list)]
@@ -167,7 +188,8 @@ If there are any missing papers or incorrect information, please feel free to co
 - Indirect Point Cloud Registration: Aligning Distance Fields Using a Pseudo Third Point Set  
 - Point Cloud Registration Leveraging Structural Regularity in Manhattan World  
 - Gravity-Constrained Point Cloud Registration  
-- LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM (I)
+- LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM (I)  
+- Linewise Non-Rigid Point Cloud Registration  
 
 [[top](#iros-2022-slam-paper-list)]
 
@@ -181,6 +203,8 @@ If there are any missing papers or incorrect information, please feel free to co
 - Voxfield: Non-Projective Signed Distance Fields for Online Planning and 3D Reconstruction  
 - 3D Lidar Reconstruction with Probabilistic Depth Completion for Robotic Navigation  
 - Contrastive 3D Shape Completion and Reconstruction for Agricultural Robots Using RGB-D Frames  
+- Real-Time Semantic 3D Reconstruction for High-Touch Surface Recognition for Robotic Disinfection  
+- ACEFusion : Accelerated and Energy-Efficient Semantic 3D Reconstruction of Dynamic Scenes
 
 
 
@@ -202,6 +226,12 @@ If there are any missing papers or incorrect information, please feel free to co
 - H-VLO: Hybrid LiDAR-Camera Fusion for Self-Supervised Odometry  
 - FAST-LIVO: Fast and Tightly-Coupled Sparse-Direct LiDAR-Inertial-Visual Odometry  
 - Online Extrinsic Correction of Multi-Camera Systems by Low-Dimensional Parameterization of Physical Deformation  
+- Rail Vehicle Localization and Mapping with LiDAR-Vision-Inertial-GNSS Fusion  
+- CROON: Automatic Multi-LiDAR Calibration and Refinement Method in Road Scene  
+- Extrinsic Camera Calibration from a Moving Person  
+- High Precision and Robust Camera Calibration under Learning-Based Distortion Correction and Feature Detection  
+- Online Kinematic Calibration for Legged Robots  
+- Vision-Assisted Localization and Terrain Reconstruction with Quadruped Robots  
 
 
 [[top](#iros-2022-slam-paper-list)]  
@@ -212,6 +242,7 @@ If there are any missing papers or incorrect information, please feel free to co
 - Maintaining Robot Localizability with Bayesian Cramer-Rao Lower Bounds  
 - Learnable Spatio-Temporal Map Embeddings for Deep Inertial Localization  
 - Learning-Enhanced Adaptive Robust GNSS Navigation in Challenging Environments  
+- IMU Dead-Reckoning Localization with RNN-IEKF Algorithm
 
 [[top](#iros-2022-slam-paper-list)]  
 
@@ -227,6 +258,8 @@ If there are any missing papers or incorrect information, please feel free to co
 - Loop Closure Prioritization for Efficient and Scalable Multi-Robot SLAM  
 - LAMP 2.0: A Robust Multi-Robot SLAM System for Operation in Challenging Large-Scale Underground Environments  
 - MR-TopoMap: Multi-Robot Exploration Based on Topological Map in Communication Restricted Environment  
+- Decentralized Learning with Limited Communications for Multi-Robot Coverage of Unknown Spatial Fields  
+- Efficient Range-Constrained Manifold Optimization with Application to Cooperative Navigation  
 
 
 [[top](#iros-2022-slam-paper-list)]  
@@ -250,7 +283,9 @@ If there are any missing papers or incorrect information, please feel free to co
 - Mapping of Spatiotemporal Scalar Fields by Mobile Robots using Gaussian Process Regression  
 - Active SLAM in 3D deformable environments  
 - Anchor Selection for SLAM Based on Graph Topology and Submodular Optimization  
-- Optimization Strategies for Bayesian Source Localization Algorithms
+- Optimization Strategies for Bayesian Source Localization Algorithms  
+- A Spanning Tree-Based Multi-Resolution Approach for Pose-Graph Optimization  
+- Nested Sampling for Non-Gaussian Inference in SLAM Factor Graphs
 
 
 [[top](#iros-2022-slam-paper-list)]  
