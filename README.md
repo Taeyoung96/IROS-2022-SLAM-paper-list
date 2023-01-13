@@ -72,7 +72,8 @@ If there are any missing papers or incorrect information, please feel free to co
 - Robust Visual Teach and Repeat for UGVs Using 3D Semantic Maps  
 - Hybrid Belief Pruning with Guarantees for Viewpoint-Dependent Semantic SLAM  
 - Active Mapping via Gradient Ascent Optimization of Shannon Mutual Information over Continuous SE(3) Trajectories  
-- From Timing Variations to Performance Degradation: Understanding and Mitigating the Impact of Software Execution Timing in SLAM
+- From Timing Variations to Performance Degradation: Understanding and Mitigating the Impact of Software Execution Timing in SLAM  
+- An Efficient and Accurate Solution to Camera Pose Estimation Problem from Point and Line Correspondences Based on Null Space Analysis  
 
 
 [[top](#iros-2022-slam-paper-list)]
