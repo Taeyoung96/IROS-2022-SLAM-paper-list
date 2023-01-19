@@ -88,7 +88,6 @@ If there are any missing papers or incorrect information, please feel free to co
 - Observability Analysis and Keyframe-Based Filtering for Visual Inertial Odometry with Full Self-Calibration (I)  
 - LF-VIO: A Visual-Inertial-Odometry Framework for Large Field-Of-View Cameras with Negative Plane  
 - Tightly-Coupled Visual-Inertial-Pressure Fusion Using Forward and Backward IMU Preintegration  
-- Continuous-Time Stereo-Inertial Odometry  
 - Square-Root Robocentric Visual-Inertial Odometry with Online Spatiotemporal Calibration  
 - Visual-Inertial-Aided Online MAV System Identification  
 - BOEM-SLAM: A Block Online EM Algorithm for the Visual-Inertial SLAM Backend  
